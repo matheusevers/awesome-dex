@@ -5,7 +5,7 @@ import logo from "../assets/pkmnlogo.png";
 
 const App = () => {
   const [pokemons, setPokemons] = useState<any>();
-  const [count, setCount] = useState<any>();
+  const [, setCount] = useState<any>();
   const [prev, setPrev] = useState<any>();
   const [next, setNext] = useState<any>();
 
